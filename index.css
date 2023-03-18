@@ -1,0 +1,131 @@
+/* 공통 설정 */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Merriweather&family=Nanum+Myeongjo&family=Tinos:ital@1&display=swap");
+body {
+  padding-top: 75px;
+  background: url(https://grainy-gradients.vercel.app/noise.svg);
+  font-family: "EB Garamond", serif;
+}
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 75px;
+  border-bottom: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: url(https://grainy-gradients.vercel.app/noise.svg);
+  backdrop-filter: blur(30px);
+}
+.navbar {
+  width: 210px;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+}
+#aboutme,
+#project,
+#contact {
+  padding: 300px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+/* 메인 페이지 */
+.profile {
+  margin: 100px auto 50px auto;
+  display: block;
+  width: 300px;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 80px;
+}
+.aboutmebtn {
+  width: 200px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+/* aboutme 페이지 */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex h2 {
+  margin-bottom: 50px;
+}
+.skills,
+.exedu {
+  padding: 20px;
+  width: 40%;
+}
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+}
+.logo img {
+  width: 100px;
+}
+/* project 페이지 */
+.pro {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 330px;
+  border-radius: 20px;
+  box-shadow: 0px 0.796841278193901px 2.3905238345817033px -0.625px rgba(0, 0, 0, 0.05),
+    0px 2.413677098392273px 7.2410312951768185px -1.25px rgba(0, 0, 0, 0.05),
+    0px 6.3802836426702925px 19.140850928010877px -1.875px rgba(0, 0, 0, 0.05),
+    0px 20px 60px -2.5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+.cardImg {
+  width: 330px;
+  height: 180px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+  background-size: cover;
+}
+.cardContent {
+  box-sizing: border-box;
+  height: 120px; /* 134px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px 30px 30px 30px;
+}
+.cardContent h3 {
+  margin: 0;
+}
+.cardContent > p {
+  line-height: 2;
+  margin: 0;
+}
+/* contact 페이지 */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 250px;
+}
+#contact {
+  padding-bottom: 200px;
+}
