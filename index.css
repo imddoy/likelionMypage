@@ -79,6 +79,14 @@ a {
 .logo img {
   width: 100px;
 }
+.exedu {
+  display: flex;
+  flex-direction: column;
+}
+.exedu h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
 /* project 페이지 */
 .pro {
   display: flex;
